@@ -1,13 +1,12 @@
 
 .avatar {
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    //background-color: red;
     margin-top: 0px;
 
+    
         h2{
          display: flex;
          align-items: center;
@@ -27,7 +26,7 @@
                         margin-left: 50px;
                     }
                 }
-            }
+        }
 
        
 }
