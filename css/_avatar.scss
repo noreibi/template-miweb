@@ -8,9 +8,13 @@
         flex-direction: column;
         margin-top: 0px;
         background-color: white;
+        width: 90%;
         max-width: 1140px;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        min-height: 350px;
 
             h2{
             display: flex;
@@ -27,16 +31,28 @@
                 div.column{
 
                     img{
-                        width: 100px;
-                        height: 100px; 
+                        width: 200px;
+                        height: 200px; 
                         border-radius: 50%;
                         background-position: center;
                         background-size: cover;
                         margin-left: 50px;
                     }
+                    h2{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color:dimgray;
+                    }
+                    p{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color:dimgray;
+                    }
+                    
             }    }
         
     }
          
 }
-    

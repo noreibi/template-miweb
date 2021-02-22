@@ -531,9 +531,13 @@ body header .container-publicacion p {
           flex-direction: column;
   margin-top: 0px;
   background-color: white;
+  width: 90%;
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  min-height: 350px;
 }
 
 .avatar .container-avatar h2 {
@@ -562,11 +566,37 @@ body header .container-publicacion p {
 }
 
 .avatar .container-avatar div.row div.column img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background-position: center;
   background-size: cover;
   margin-left: 50px;
+}
+
+.avatar .container-avatar div.row div.column h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: dimgray;
+}
+
+.avatar .container-avatar div.row div.column p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: dimgray;
 }
 /*# sourceMappingURL=style.css.map */
