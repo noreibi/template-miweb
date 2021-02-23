@@ -421,6 +421,7 @@ body header h1 {
       -ms-flex-pack: center;
           justify-content: center;
   color: dimgray;
+  margin: 10px 10px 10px 10px;
 }
 
 body header .container-publicacion {
